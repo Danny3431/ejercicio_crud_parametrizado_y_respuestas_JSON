@@ -83,3 +83,11 @@ ejercicio-crud-parametrizado/
     ├── editar.html     # PUT → modificar nombre, muestra rowCount
     └── eliminar.html   # DELETE → por RUT, nombre o edad, muestra rowCount
 ```
+## 📥 Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+cd nombre-del-repositorio
+npm install
+```
+
+Luego edita el archivo `.env` con tus credenciales de PostgreSQL y ejecuta `npm start`.
